@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="todo6">TODO6</string>
+    <string name="todo5">TODO5</string>
+    <string name="todo4">TODO4</string>
+    <string name="todo3">TODO3</string>
+    <string name="todo2">TODO2</string>
+    <string name="todo1">TODO1</string>
+    <string name="todo111">TODO</string>
+    <string name="todo121">TODO121</string>
+</resources>

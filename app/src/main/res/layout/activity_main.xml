@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#030C40"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic0"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/chem"
+        android:contentDescription="@string/todo1" />
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/random"
+        android:contentDescription="@string/todo2" />
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/burger"
+        android:contentDescription="@string/todo3" />
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/download"
+        android:contentDescription="@string/todo4" />
+    <ImageView
+        android:id="@+id/pic4"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/tdown"
+        android:contentDescription="@string/todo5" />
+    <ImageView
+        android:id="@+id/pic5"
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/unnamed"
+        android:contentDescription="@string/todo6" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="156dp"
+        android:layout_weight="1"
+        android:onClick="prev"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_previous"
+        android:contentDescription="@string/todo111" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="86dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="156dp"
+        android:layout_weight="1"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_next"
+        android:contentDescription="@string/todo121" />
+</androidx.constraintlayout.widget.ConstraintLayout>
